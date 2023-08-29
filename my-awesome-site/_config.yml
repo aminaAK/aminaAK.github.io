@@ -20,25 +20,17 @@
 
 title: ant-lab
 email: potylitcyn@phystech.edu
-description: >- # this means to ignore newlines until "baseurl:" 
-
+description: >- # this means to ignore newlines until "baseurl:"
+  Следите за нашим каналом на youtube.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+youtube_username: ant-lab-ru
 github_username:  ant-lab-ru
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
-defaults:
-  - scope:
-      path: "img/"
-    values:
-      image: true
-
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
