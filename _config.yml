@@ -21,15 +21,11 @@
 title: ant-lab
 email: potylitcyn@phystech.edu
 description: >- # this means to ignore newlines until "baseurl:" 
-Наши контакты
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ant-lab-ru
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
+
 # Build settings
 theme: minima
 plugins:
