@@ -31,10 +31,12 @@ github_username:  ant-lab-ru
 theme: minima
 plugins:
   - jekyll-feed
-
+  
 minima:
   social_links:
-    - { platform: vk,  user_url: "https://vk.com/antlabru" }
+    - platform: vk  # same as SVG filename.
+      user_url: "https://vk.com/antlabru"  # URL of profile page.
+
     
 
 # Exclude from processing.
